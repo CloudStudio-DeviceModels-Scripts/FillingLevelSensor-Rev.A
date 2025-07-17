@@ -25,7 +25,7 @@ function getEndpoints(deviceAddress, endpoints)
 
   endpoints.addEndpoint("1", "Volume sensor", endpointType.volumeSensor);
   var bat = endpoints.addEndpoint("2", "Battery", endpointType.genericSensor);
-  bat.variableTypeId = 1111;
+  bat.variableTypeId = 1019;
 }
 
 function validateDeviceAddress(address, result)
